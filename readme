@@ -1,0 +1,32 @@
+1.1 Déboguer les deux bugs JS (modale et filtre actif) avant optimisation.
+
+"Avant la correction
+Le code essayait d'afficher la photo suivante ou précédente, mais il ne changeait pas vraiment d'image.
+En fait, il reprenait souvent la même photo, car il ne calculait pas la position de la photo affichée dans la liste des images.
+Exemple simplifié du problème':
+Apply to maugallery.j...
+Ici, index ne changeait pas, donc on restait sur la même image.
+Après la correction
+J'ai modifié le code pour:
+Trouver la position de la photo affichée dans la liste des images.
+Calculer la position de la photo suivante ou précédente:
+Pour la suivante: on ajoute 1 à la position actuelle (et on revient au début si on est à la fin).
+Pour la précédente: on enlève 1 à la position actuelle (et on revient à la fin si on est au début).
+Afficher la nouvelle photo en utilisant cette nouvelle position.
+Exemple du nouveau code:
+Apply to maugallery.j..."
+  
+1.2 Vérification css filtre actif.
+
+"Dans la fonction filterByTag, la classe ajoutée par le filtre est 'active-tag' qui permet de savoir si le filtre est actif mais il manquait la classe 'active' qui permet de savoir que le filtre est actif."
+
+
+2. Redimensionner + convertir les images (WebP, tailles réelles).
+
+3. Minifier/Nettoyer CSS/JS inutiles ou trop lourds.
+
+4. Ajouter les balises <title>, meta, alt, lang, label manquantes.
+
+5. Implémenter le Schema.org (référencement local) avec l’adresse de Nina.
+
+6. Préparer le rapport “Avant optimisation” (captures + résumé des problèmes).
