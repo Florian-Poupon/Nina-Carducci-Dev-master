@@ -1,4 +1,4 @@
-1.1 Déboguer les deux bugs JS (modale et filtre actif) avant optimisation.
+1. Déboguer les deux bugs JS (modale et filtre actif) avant optimisation.
 
 "Avant la correction
 Le code essayait d'afficher la photo suivante ou précédente, mais il ne changeait pas vraiment d'image.
@@ -11,13 +11,17 @@ Pour la suivante: on ajoute 1 à la position actuelle (et on revient au début s
 Pour la précédente: on enlève 1 à la position actuelle (et on revient à la fin si on est au début).
 Afficher la nouvelle photo en utilisant cette nouvelle position."
 
-1.2 Vérification css filtre actif.
+Vérification css filtre actif.
 
 "Dans la fonction filterByTag, la classe ajoutée par le filtre est 'active-tag' qui permet de savoir si le filtre est actif mais il manquait la classe 'active' qui permet de savoir que le filtre est actif."
 
 2. Redimensionner + convertir les images (WebP, tailles réelles).
 
+Les fichiers .jpg sont trop gros pour le site, il ont été remplacés par des fichiers .webp et redimensionnés max width 1920px (largeur du site).
+
 3. Minifier/Nettoyer CSS/JS inutiles ou trop lourds (.min).
+
+mise à jour des liens dans le html vers les fichiers minifiés.
 
 4. Ajouter les balises <title>, meta, alt, lang, label manquantes.
 
