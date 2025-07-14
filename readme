@@ -17,7 +17,7 @@ Vérification css filtre actif.
 
 2. Redimensionner + convertir les images (WebP, tailles réelles).
 
-Les fichiers .jpg sont trop gros pour le site, il ont été remplacés par des fichiers .webp et redimensionnés max width 1920px (largeur du site).
+Les fichiers .jpg sont trop gros pour le site, il ont été remplacés par des fichiers .webp et redimensionnés à la taille de leurs conteneurs.
 
 3. Minifier/Nettoyer CSS/JS inutiles ou trop lourds (.min).
 
@@ -25,6 +25,6 @@ mise à jour des liens dans le html vers les fichiers minifiés.
 
 4. Ajouter les balises <title>, meta, alt, lang, label manquantes.
 
-5. Implémenter le Schema.org (référencement local) avec l’adresse de Nina.
+5. Implémenter le Schema.org (référencement local) et réferencement réseaux sociaux.
 
 6. Préparer le rapport “Avant optimisation” (captures + résumé des problèmes).
