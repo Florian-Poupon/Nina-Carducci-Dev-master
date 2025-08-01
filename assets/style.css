@@ -78,15 +78,19 @@ body {
   margin-bottom: 60px;
   font-size: 30px;
 }
+
+#about-me {
+  width: 80%;
+  font-size: 14px;
+  text-align: justify;
+}
+
 .about-me__introduction {
   font-family: "Spectral";
   font-weight: 800;
+  font-size: 18px;
   font-style: italic;
-  width: 60%;
-}
-#about-me p {
-  width: 80%;
-  font-size: 14px;
+  width: 100%;
 }
 
 #gallery {
@@ -147,6 +151,7 @@ body {
   font-family: Spectral;
   font-style: italic;
   font-weight: 300;
+  font-size: 26px;
 }
 .quote__author {
   font-family: Spectral;
